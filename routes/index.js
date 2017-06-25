@@ -1,7 +1,7 @@
 var express = require('express');
 var twilio = require('twilio');
-var accountSid = 'AC920c9920faf15270c5394f690187585b'; // Your Account SID from www.twilio.com/console
-var authToken = '2a97b37e4a7cdd9bbd18b5b64cca1369';   // Your Auth Token from www.twilio.com/console
+var accountSid = 'XXXXXXXX'; // Your Account SID from www.twilio.com/console
+var authToken = 'XXXXXXXX';   // Your Auth Token from www.twilio.com/console
 var client = new twilio(accountSid, authToken);
 
 var router = express.Router();
